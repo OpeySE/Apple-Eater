@@ -53,7 +53,7 @@ def game(win,character1,allTheApples,numberOfApples):
         
         #Eating the apples
         head = character1[0].getCenter()
-        allTheApples[specificApple].move(0,0.06)
+        allTheApples[specificApple].move(0,0.04)
         ballCenter = allTheApples[specificApple].getCenter()
   
         if distanceBetweenPoints(head, ballCenter) < 25:
